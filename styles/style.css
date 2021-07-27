@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.title {
+  color: rgba(54, 57, 88, 1);
+}
+@media screen and (max-width: 1024px) {
+  .feature {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .feature-img {
+    order: -1;
+    flex: 1 0 100%;
+  }
+}
